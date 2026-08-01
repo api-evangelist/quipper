@@ -1,7 +1,24 @@
 aid: quipper
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/quipper.png
 name: Quipper
-description: Quipper is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Quipper is an online learning platform founded in 2010 that describes itself as a "Distributor
+  of Wisdom," building web and mobile e-learning products that let students and teachers study and manage
+  coursework regardless of geographic or economic circumstances. The company operates regional education
+  services across Japan, Indonesia, and the Philippines, pairing digital lesson content and assessments
+  with tools for schools and teachers. Quipper is a 500 Global portfolio company. As of this enrichment
+  pass no public developer portal, API documentation, or machine-readable API surface was found on its
+  public web properties; this profile captures its verified web and domain-security posture.
 url: https://raw.githubusercontent.com/api-evangelist/quipper/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Education
+- E-Learning
+- EdTech
+- Online Learning
+- Students
+- Teachers
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +44,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/quipper-domain-security.yml
+- type: LLMsTxt
+  url: llms/quipper-llms.txt
 - type: Website
   url: https://quipper.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

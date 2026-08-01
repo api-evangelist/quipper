@@ -1,0 +1,15 @@
+# Quipper
+
+> Quipper is an online learning platform founded in 2010 ("Distributor of Wisdom") that builds web and mobile e-learning products for students and teachers, operating regional education services across Japan, Indonesia, and the Philippines. Quipper is a 500 Global portfolio company. As of this profile no public developer portal or API documentation was found on its public web properties.
+
+## Company
+- [Quipper website](https://quipper.com): Main corporate site linking to regional education services.
+
+## Profile
+- [API Evangelist profile (apis.yml)](https://raw.githubusercontent.com/api-evangelist/quipper/refs/heads/main/apis.yml): Machine-readable APIs.json profile for Quipper.
+
+## Artifacts
+- [Domain security posture](https://raw.githubusercontent.com/api-evangelist/quipper/refs/heads/main/security/quipper-domain-security.yml): Probed TLS/HSTS/DNSSEC/SPF/DMARC posture for quipper.com.
+
+## Notes
+- No public API, OpenAPI/AsyncAPI specification, developer portal, `/.well-known/security.txt`, or trust center was found during enrichment (developer.quipper.com and /.well-known/security.txt returned HTTP 404).
